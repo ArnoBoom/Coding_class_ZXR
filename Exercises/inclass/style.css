@@ -30,10 +30,14 @@ main{
 aside{
     width: 20%;
     background-color: coral;
-
+    display: inline;
+    height: 100%;
+    float: left;
 }
 section{
     width: 60%;
     background-color:darkseagreen ;
-    
+    display: inline;
+    height: 100%;
+    float: left;
 }
