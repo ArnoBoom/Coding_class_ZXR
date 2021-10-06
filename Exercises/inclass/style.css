@@ -41,3 +41,11 @@ section{
     height: 100%;
     float: left;
 }
+.box{
+    position: relative;
+    width: 300px;
+    top: 100px;
+    right: 100px;
+    height: 100px;
+    background-color: yellow;
+}
