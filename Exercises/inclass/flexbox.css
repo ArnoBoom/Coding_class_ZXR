@@ -2,8 +2,8 @@ body{
     background-color: palevioletred;
 }
 .container{
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content:center;
 }
 .item{
     margin: 5px;
