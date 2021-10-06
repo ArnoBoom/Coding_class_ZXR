@@ -3,6 +3,7 @@ body{
 }
 .container{
     display: inline-flex;
+    justify-content: flex-end;
 }
 .item{
     margin: 5px;
