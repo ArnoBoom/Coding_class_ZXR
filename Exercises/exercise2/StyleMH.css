@@ -1,9 +1,11 @@
 *{
     margin: 20px, 40px;
-
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 h1{
+    font-family: 'Scheherazade New', serif;
     color: cadetblue;
-    background-color: aqua;
+    
 }
