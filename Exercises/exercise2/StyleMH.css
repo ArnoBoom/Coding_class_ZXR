@@ -1,11 +1,36 @@
 *{
-    margin: 20px, 40px;
+    margin: 20px;
     padding: 0px;
     box-sizing: border-box;
 }
+html,body{
+    height: 100%;
+}
 
-h1{
+
+h1,h3{
     font-family: 'Scheherazade New', serif;
-    color: cadetblue;
+    color: rgb(42, 59, 59);
+    font-size: 45px;
+    text-align:left
     
+}
+h2,h4{
+    color: rgb(109, 109, 109);
+    font-size: 20px;
+}
+.m1{
+    width: 50%;
+    display:inline;
+    float: left;
+    
+}
+.m2{
+    width: 49%;
+    display:inline;
+    float: right;
+}
+.t1,.t2,.t3,.t4{
+    color: rgb(209, 209, 209);
+    font-size:30px;
 }
