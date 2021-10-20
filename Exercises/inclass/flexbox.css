@@ -1,4 +1,12 @@
-body{
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+body,html{
+    height :100%;
     background-color: palevioletred;
 }
 .container{
@@ -6,8 +14,18 @@ body{
     justify-content:center;
 }
 .item{
+    flex-grow: 1;
     margin: 5px;
     width: 100px;
     height: 100px;
     background-color: tomato;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+.item:nth-child(3){
+   flex-grow: 2;
+   background-color: aquamarine;
+   align-self: flex-end;
+
 }
