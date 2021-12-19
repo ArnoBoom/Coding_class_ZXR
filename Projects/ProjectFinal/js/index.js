@@ -62,6 +62,7 @@ window.onload = function() {
         people1.style.transition = 'all 1s ease-out'
         people1.style.opacity = 0
         imgText1.style.transition = 'all 1s ease-out'
+        
         imgText1.style.opacity = 0
         people2.style.display = 'block'
         people3.style.transition = 'all 1s ease-out'
@@ -91,6 +92,8 @@ window.onload = function() {
     on(people2, 'click', () => {
         people2.style.display = 'none'
         people3.style.transition = 'all 1s ease-in'
+        
+        
         people3.style.opacity = 1
         imgText2.style.transition = 'all 1s ease-in'
         imgText2.style.opacity = 1
@@ -99,6 +102,7 @@ window.onload = function() {
         people2.style.display = 'block'
         people3.style.transition = 'all 1s ease-out'
         people3.style.opacity = 0
+        
         imgText2.style.transition = 'all 1s ease-out'
         imgText2.style.opacity = 0
     })
@@ -160,6 +164,7 @@ function setWidth() {
 
     let bg3 = document.querySelector('.page3 .bg-img')
     let bg3Ratio = bg3.offsetWidth / Number(bg3.getAttribute('naturalWidth'))
+    
     let btn3NaturalWidth = Number(btn3.getAttribute('naturalWidth'))
     btn3.style.width = btn3NaturalWidth * bg3Ratio + 'px'
     let people2NaturalWidth = Number(people2.getAttribute('naturalWidth'))
