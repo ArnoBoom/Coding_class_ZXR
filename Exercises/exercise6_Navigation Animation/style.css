@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%；
+}
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+nav{
+    height:20%;
+}
+
+main{
+    height:80%;
+    background:smoke;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+    list-style: none;
+    background: rgb(255, 172, 49);
+    line-height: 60px;
+  }
+
+  .container a {
+    text-decoration: none;
+    color: white;
+}
+
+Li{
+    padding: 0 40px;
+}
+
+li:hover {
+    animation: changeMe 3s ease-in-out .2s;
+  }
+  
+  @keyframes changeMe {
+    0% {
+      background-color: rgb(250, 132, 53);
+    }
+    50%{
+      background-color: #f78121;
+    }
+    75%{
+      background-color: rgb(255, 117, 24);
+    }
+    100% {
+      background-color: rgb(248, 50, 0);
+    }
+  }

@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+.m1{
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: aquamarine;
+}
+
+@media(min-width:500px){
+    .m1{
+   background-color: rgb(209, 160, 255);
+    }
+}
+
+
+@media (min-width:1000px) {
+   .m1{
+       background-color: rgb(255, 159, 159);
+   }    
+}
+
+@media (min-width:1500px) {
+    .m1{
+        background-color: rgb(255, 210, 152);
+    }    
+ }
